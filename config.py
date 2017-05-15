@@ -22,6 +22,6 @@ response, data = client.request(timeline_endpoint)
 tweets = json.loads(data)
 
 for tweet in tweets:
-    '''the output will be the text in this condition which is the requested person's tweet,'''
+    """the output will be the text in this condition which is the requested person's tweet,"""
     print tweet['text']
     #print data
